@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "lsvg-series",
+    "name": "LSVG Series",
+    "series_code": "LSVG-03",
+    "category_slug": "linear-servo-valves",
+    "short_description": null,
+    "description": null,
+    "image": "images/yuk-linear-servo-valves.jpg",
+    "catalog_pdf": null,
+    "applications": [
+      { "slug": "automotive-transportation", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "industrial-robots", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "machine-tools", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "manufacturing-machinery", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "plastic-processing-forming-machinery", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "power-generation", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "steel-plant-equipment", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." }
+    ],
+    "needs_review": true,
+    "reason": "Applications use the category-level fallback matrix because the supplied workbook contains specifications but no product-use descriptions.",
+    "variants": [
+      { "model_code": "LSVG-03-4", "slug": "lsvg-03-4", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 4, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Vibration proof": "10–60 Hz: amplitude 4 mm, acceleration 7.8–282 m/s²; 61–2000 Hz: amplitude 4–0.0038 mm, acceleration 294 m/s²", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5, "Polarity": "See I/O signal characteristics, source page I-19" } },
+      { "model_code": "LSVG-03-10", "slug": "lsvg-03-10", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 10, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } },
+      { "model_code": "LSVG-03-20", "slug": "lsvg-03-20", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 20, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } },
+      { "model_code": "LSVG-03-40", "slug": "lsvg-03-40", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 40, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } },
+      { "model_code": "LSVG-03-60", "slug": "lsvg-03-60", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 60, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "3 / 4", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "330 / 240", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "410 / 330", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.75", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } }
+    ]
+  },
+  {
+    "slug": "lsvg-eh-series",
+    "name": "LSVG EH Series",
+    "series_code": "LSVG EH",
+    "category_slug": "linear-servo-valves",
+    "short_description": null,
+    "description": null,
+    "image": "images/yuk-linear-servo-valves.jpg",
+    "catalog_pdf": null,
+    "applications": [
+      { "slug": "automotive-transportation", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "industrial-robots", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "machine-tools", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "manufacturing-machinery", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "plastic-processing-forming-machinery", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "power-generation", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
+      { "slug": "steel-plant-equipment", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." }
+    ],
+    "needs_review": true,
+    "reason": "Application mapping is provisional. The supplied workbook lists LSVG-03EH for 40 and 60 flow models and includes option wildcards not present in the provided model list.",
+    "variants": [
+      { "model_code": "LSVG-01EH-4", "slug": "lsvg-01eh-4", "needs_review": true, "review_note": "Workbook model pattern is LSVG-01EH-4-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.", "specs": { "Rated flow at ΔP 7 MPa (L/min)": 4, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa), standard / wet type": "21 / 7", "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port", "Internal leakage maximum (L/min)": 0.4, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5", "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230", "Frequency response phase -90° (Hz), standard / wet type": "300 / 270", "Vibration proof (m/s²)": 100, "Protection": "IP 65", "Ambient temperature (°C)": "0 to +50", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "1.5 (maximum 3.2)", "Coil resistance (Ω at 20 °C)": 7, "Approximate mass (kg)": 4.3, "Electric connection": "6 + PE / 11 + PE connector" } },
+      { "model_code": "LSVG-01EH-10", "slug": "lsvg-01eh-10", "needs_review": true, "review_note": "Workbook model pattern is LSVG-01EH-10-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.", "specs": { "Rated flow at ΔP 7 MPa (L/min)": 10, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa), standard / wet type": "21 / 7", "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port", "Internal leakage maximum (L/min)": 0.8, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5", "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230", "Frequency response phase -90° (Hz), standard / wet type": "300 / 270", "Vibration proof (m/s²)": 100, "Protection": "IP 65", "Ambient temperature (°C)": "0 to +50", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "1.5 (maximum 3.2)", "Coil resistance (Ω at 20 °C)": 7, "Approximate mass (kg)": 4.3, "Electric connection": "6 + PE / 11 + PE connector" } },
+      { "model_code": "LSVG-01EH-20", "slug": "lsvg-01eh-20", "needs_review": true, "review_note": "Workbook model pattern is LSVG-01EH-20-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.", "specs": { "Rated flow at ΔP 7 MPa (L/min)": 20, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa), standard / wet type": "21 / 7", "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port", "Internal leakage maximum (L/min)": 1.2, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5", "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230", "Frequency response phase -90° (Hz), standard / wet type": "300 / 270", "Vibration proof (m/s²)": 100, "Protection": "IP 65", "Ambient temperature (°C)": "0 to +50", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "1.5 (maximum 3.2)", "Coil resistance (Ω at 20 °C)": 7, "Approximate mass (kg)": 4.3, "Electric connection": "6 + PE / 11 + PE connector" } },
+      { "model_code": "LSVG-01EH-40", "slug": "lsvg-01eh-40", "needs_review": true, "review_note": "User-provided prefix is 01EH, while the workbook lists 03EH for 40 flow. No workbook specs assigned until the model prefix is confirmed.", "specs": null },
+      { "model_code": "LSVG-01EH-60", "slug": "lsvg-01eh-60", "needs_review": true, "review_note": "User-provided prefix is 01EH, while the workbook lists 03EH for 60 flow. No workbook specs assigned until the model prefix is confirmed.", "specs": null }
+    ]
+  }
+]

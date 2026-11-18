@@ -1,0 +1,88 @@
+{
+  "source_pages": [
+    "resources/views/product.blade.php",
+    "resources/views/home.blade.php"
+  ],
+  "individual_products_found": [],
+  "category_cards_found": [
+    {
+      "name_as_displayed": "Linear Servo Valves",
+      "canonical_category_slug": "linear-servo-valves",
+      "image": "public/images/yuk-linear-servo-valves.jpg",
+      "source": "resources/views/product.blade.php"
+    },
+    {
+      "name_as_displayed": "Hydraulics Cylinders",
+      "canonical_category_slug": "hydraulic-cylinders",
+      "image": "public/images/yuk-hydraulics-cylinders.jpg",
+      "source": "resources/views/product.blade.php",
+      "review_note": "Displayed label differs from the canonical category name 'Hydraulic Cylinders' in the brief."
+    },
+    {
+      "name_as_displayed": "Flow Controls",
+      "canonical_category_slug": "flow-controls",
+      "image": "public/images/yuk-flow-control.jpg",
+      "source": "resources/views/product.blade.php"
+    },
+    {
+      "name_as_displayed": "Modules",
+      "canonical_category_slug": "modules",
+      "image": "public/images/yuk-modules.jpg",
+      "source": "resources/views/product.blade.php"
+    },
+    {
+      "name_as_displayed": "Pressure Control Valves",
+      "canonical_category_slug": "pressure-control-valves",
+      "image": "public/images/yuk-pressure-control-valve.jpg",
+      "source": "resources/views/product.blade.php"
+    },
+    {
+      "name_as_displayed": "Pumps",
+      "canonical_category_slug": "pumps",
+      "image": "public/images/yuk-pumps.jpg",
+      "source": "resources/views/product.blade.php"
+    },
+    {
+      "name_as_displayed": "Solenoid Valves",
+      "canonical_category_slug": "solenoid-valves",
+      "image": "public/images/yuk-solenoid-valves.jpg",
+      "source": "resources/views/product.blade.php"
+    }
+  ],
+  "catalogue_cards_found": [
+    {
+      "name": "Flow Control Catalogue",
+      "image": null,
+      "source": "resources/views/product.blade.php",
+      "note": "Catalogue preview card only; no PDF or product-level catalogue file is configured."
+    },
+    {
+      "name": "Valve & Module Catalogue",
+      "image": null,
+      "source": "resources/views/product.blade.php",
+      "note": "Catalogue preview card only; no PDF or product-level catalogue file is configured."
+    },
+    {
+      "name": "Pump Solutions Catalogue",
+      "image": null,
+      "source": "resources/views/product.blade.php",
+      "note": "Catalogue preview card only; no PDF or product-level catalogue file is configured."
+    }
+  ],
+  "application_cards_found": [
+    "Automotive Transportation",
+    "Construction & Earth-moving Equipment",
+    "Industrial Robots",
+    "Machine Tools",
+    "Manufacturing Machinery",
+    "Plastic Processing and Forming Machinery",
+    "Power Generation",
+    "Steel Plant Equipment"
+  ],
+  "audit_notes": [
+    "The product page contains category cards, not individual product detail records.",
+    "The only product-card descriptor is the generic label 'Hydraulic equipment'.",
+    "No product series codes, long descriptions, specifications, or catalogue PDFs were found in the audited project views and public image assets.",
+    "No source HTML files or individual product pages were found in the project."
+  ]
+}
