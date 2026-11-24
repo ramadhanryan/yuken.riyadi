@@ -172,8 +172,8 @@
                 <div class="footer-bottom-inner">
                     <p class="footer-copy">© 2026 Sinar Mutiara Cakrabuana. Yuken Distributor in Indonesia.</p>
                     <div class="footer-meta">
-                        <a href="#">Privacy policy</a>
-                        <a href="#">Terms &amp; conditions</a>
+                        <a href="{{ url('/privacy') }}">Privacy policy</a>
+                        <a href="{{ url('/privacy') }}">Terms &amp; conditions</a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 @include('partials.consent-banner')
+@include('partials.page-transition')
 
 <script>
     const navbar = document.getElementById('navbar');

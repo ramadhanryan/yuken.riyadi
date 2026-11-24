@@ -65,7 +65,7 @@
             <div><h2 class="footer-heading">Company</h2><ul class="footer-list"><li><a href="https://group.riyadi.co.id/about">About Riyadi Group</a></li><li><a href="https://www.yuken.co.jp/en/corp/info">About Yuken</a></li><li><a href="https://www.yuken.co.jp/en/">Yuken website</a></li></ul></div>
             <div><h2 class="footer-heading">Get in touch</h2><ul class="footer-list"><li><a href="mailto:suminoue@riyadi.co.id">suminoue@riyadi.co.id</a></li><li>Monday–Friday</li><li>08.00 AM - 05.00 PM</li></ul></div>
         </div>
-        <div class="footer-bottom"><div class="footer-bottom-inner"><p>© 2026 Sinar Mutiara Cakrabuana. Yuken Distributor in Indonesia.</p><div class="footer-meta"><a href="#">Privacy policy</a><a href="#">Terms &amp; conditions</a></div></div></div>
+        <div class="footer-bottom"><div class="footer-bottom-inner"><p>© 2026 Sinar Mutiara Cakrabuana. Yuken Distributor in Indonesia.</p><div class="footer-meta"><a href="{{ url('/privacy') }}">Privacy policy</a><a href="{{ url('/privacy') }}">Terms &amp; conditions</a></div></div></div>
     </footer>
     @include('partials.scripts')
 </body>

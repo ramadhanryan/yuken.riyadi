@@ -6,7 +6,7 @@
         .page-banner { position: relative; display: grid; min-height: 236px; overflow: hidden; place-items: center; isolation: isolate; background: radial-gradient(ellipse at 40% 110%, rgba(255,255,255,.66), transparent 40%), linear-gradient(115deg, #d7e6f4, #7bb3de 52%, #8fc1e2); }
         .page-banner::before { position: absolute; z-index: -1; inset: -35%; content: ""; opacity: .52; background: repeating-linear-gradient(145deg, transparent 0 74px, rgba(255,255,255,.46) 76px 79px, transparent 81px 142px), repeating-linear-gradient(25deg, transparent 0 115px, rgba(255,255,255,.26) 117px 120px, transparent 122px 205px); transform: rotate(-7deg); }
         .page-banner::after { position: absolute; z-index: -1; inset: 0; content: ""; background: linear-gradient(90deg, rgba(245,250,255,.18), transparent 55%, rgba(24,82,145,.10)); }
-        .page-banner h1 { margin: 0; color: #fff; font-size: clamp(36px, 4vw, 48px); font-weight: 750; letter-spacing: -.025em; text-shadow: 0 3px 8px rgba(30,65,105,.3); }
+        .page-banner h1 { margin: 0; color: #fff; font-size: clamp(36px, 4vw, 48px); text-align: center; font-weight: 750; letter-spacing: -.025em; text-shadow: 0 3px 8px rgba(30,65,105,.3); }
         .breadcrumb { min-height: 42px; background: #2d49a1; color: #fff; }
         .breadcrumb-inner { width: min(1248px, calc(100% - 48px)); min-height: 42px; margin: auto; display: flex; align-items: center; gap: 20px; font-size: 14px; font-weight: 650; }
         .breadcrumb a { text-decoration: none; }
@@ -38,6 +38,7 @@
         .footer-meta a { text-decoration: none; }
         @media (max-width: 760px) {
             .page-banner { min-height: 190px; }
+            .page-banner h1 { font-size: clamp(24px, 6vw, 36px); }
             .breadcrumb-inner { width: calc(100% - 36px); }
             .contact-section { padding: 52px 18px 64px; }
             .contact-card { grid-template-columns: 1fr; }

@@ -36,8 +36,8 @@
         .mega-about-card strong { font-size: 15px; }
         .mega-about-card span { margin-top: 7px; color: #748195; font-size: 12px; line-height: 1.5; }
         .mega-about-card em { margin-top: 12px; color: #1769c2; font-size: 12px; font-style: normal; font-weight: 700; }
-        .nav-links .contact-link { padding: 0; border-radius: 0; background: transparent; color: #34465d; }
-        .nav-links .contact-link:hover { background: transparent; color: var(--blue); }
+        .nav-links .contact-link { padding: 16px 22px; border-radius: 4px; background: #0e44a7; color: #fff; }
+        .nav-links .contact-link:hover { background: #2286ff; color: #fff;}
         .menu-toggle { display: none; position: relative; width: 42px; height: 42px; padding: 0; border: 0; border-radius: 4px; background: transparent; color: var(--navy); cursor: pointer; }
         .menu-toggle:hover { background: #f1f5fa; }
         .menu-toggle span { position: absolute; left: 11px; width: 20px; height: 2px; border-radius: 2px; background: currentColor; transition: top .25s,transform .25s,opacity .18s; }
@@ -63,3 +63,7 @@
             .mega-about-grid { grid-template-columns: 1fr; gap: 8px; }.mega-about-card { min-height: 0; padding: 13px 14px; }
             .nav-links .contact-link { margin-top: 7px; text-align: center; }
         }
+
+/* Use text color alone to mark the current navigation page. */
+.nav-links > a.active:not(.contact-link), .nav-trigger.active { color: #7b8796; }
+.nav-links .contact-link.active, .nav-links .contact-link.active:hover { background: #2286ff; color: #fff; }

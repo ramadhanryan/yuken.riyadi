@@ -3,7 +3,7 @@
         * { box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body { margin: 0; color: var(--ink); font-family: Inter, "Segoe UI", Arial, sans-serif; }
-        .hero { min-height: 100svh; position: relative; isolation: isolate; display: flex; align-items: center; overflow: hidden; background: #dce8f3 url('{{ asset('images/yuken-precision-banner.png') }}') center / cover no-repeat; }
+        .hero { min-height: 100svh; position: relative; isolation: isolate; display: flex; align-items: center; overflow: hidden; background: #dce8f3 url('{{ asset('images/oldyuken-precision-banner.png') }}') center / cover no-repeat; }
         .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(10, 30, 61, .82) 0%, rgba(12, 41, 79, .62) 41%, rgba(13, 48, 92, .10) 78%), linear-gradient(0deg, rgba(10, 31, 62, .30), transparent 45%); }
         .hero-inner { width: min(1180px, calc(100% - 48px)); margin: 0 auto; padding: 120px 0 72px; }
         .eyebrow { display: inline-flex; align-items: center; gap: 11px; color: #cfe5ff; font-size: 12px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }

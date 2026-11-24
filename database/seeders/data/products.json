@@ -9,22 +9,162 @@
     "image": "images/yuk-linear-servo-valves.jpg",
     "catalog_pdf": null,
     "applications": [
-      { "slug": "automotive-transportation", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "industrial-robots", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "machine-tools", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "manufacturing-machinery", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "plastic-processing-forming-machinery", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "power-generation", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "steel-plant-equipment", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." }
+      {
+        "slug": "automotive-transportation",
+        "relevance": "secondary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "industrial-robots",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "machine-tools",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "manufacturing-machinery",
+        "relevance": "secondary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "plastic-processing-forming-machinery",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "power-generation",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "steel-plant-equipment",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      }
     ],
     "needs_review": true,
     "reason": "Applications use the category-level fallback matrix because the supplied workbook contains specifications but no product-use descriptions.",
     "variants": [
-      { "model_code": "LSVG-03-4", "slug": "lsvg-03-4", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 4, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Vibration proof": "10–60 Hz: amplitude 4 mm, acceleration 7.8–282 m/s²; 61–2000 Hz: amplitude 4–0.0038 mm, acceleration 294 m/s²", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5, "Polarity": "See I/O signal characteristics, source page I-19" } },
-      { "model_code": "LSVG-03-10", "slug": "lsvg-03-10", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 10, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } },
-      { "model_code": "LSVG-03-20", "slug": "lsvg-03-20", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 20, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } },
-      { "model_code": "LSVG-03-40", "slug": "lsvg-03-40", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 40, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } },
-      { "model_code": "LSVG-03-60", "slug": "lsvg-03-60", "needs_review": false, "review_note": null, "specs": { "Rated flow at ΔP 7 MPa (L/min)": 60, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa)": 35, "Drain port permissible back pressure (MPa)": 0.05, "Internal leakage maximum (L/min)": 1.7, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "3 / 4", "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "330 / 240", "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "410 / 330", "Protection": "IP 64", "Ambient temperature (°C)": "-15 to +60", "Spool stroke to stops (mm)": "±0.75", "Linear motor current (A)": "2 (maximum 6)", "Coil resistance (Ω at 20 °C)": 4.5, "Mass (kg)": 5 } }
+      {
+        "model_code": "LSVG-03-4",
+        "slug": "lsvg-03-4",
+        "needs_review": false,
+        "review_note": null,
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 4,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa)": 35,
+          "Drain port permissible back pressure (MPa)": 0.05,
+          "Internal leakage maximum (L/min)": 1.7,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3",
+          "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300",
+          "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370",
+          "Vibration proof": "10–60 Hz: amplitude 4 mm, acceleration 7.8–282 m/s²; 61–2000 Hz: amplitude 4–0.0038 mm, acceleration 294 m/s²",
+          "Protection": "IP 64",
+          "Ambient temperature (°C)": "-15 to +60",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "2 (maximum 6)",
+          "Coil resistance (Ω at 20 °C)": 4.5,
+          "Mass (kg)": 5,
+          "Polarity": "See I/O signal characteristics, source page I-19"
+        }
+      },
+      {
+        "model_code": "LSVG-03-10",
+        "slug": "lsvg-03-10",
+        "needs_review": false,
+        "review_note": null,
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 10,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa)": 35,
+          "Drain port permissible back pressure (MPa)": 0.05,
+          "Internal leakage maximum (L/min)": 1.7,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3",
+          "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300",
+          "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370",
+          "Protection": "IP 64",
+          "Ambient temperature (°C)": "-15 to +60",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "2 (maximum 6)",
+          "Coil resistance (Ω at 20 °C)": 4.5,
+          "Mass (kg)": 5
+        }
+      },
+      {
+        "model_code": "LSVG-03-20",
+        "slug": "lsvg-03-20",
+        "needs_review": false,
+        "review_note": null,
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 20,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa)": 35,
+          "Drain port permissible back pressure (MPa)": 0.05,
+          "Internal leakage maximum (L/min)": 1.7,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3",
+          "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300",
+          "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370",
+          "Protection": "IP 64",
+          "Ambient temperature (°C)": "-15 to +60",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "2 (maximum 6)",
+          "Coil resistance (Ω at 20 °C)": 4.5,
+          "Mass (kg)": 5
+        }
+      },
+      {
+        "model_code": "LSVG-03-40",
+        "slug": "lsvg-03-40",
+        "needs_review": false,
+        "review_note": null,
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 40,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa)": 35,
+          "Drain port permissible back pressure (MPa)": 0.05,
+          "Internal leakage maximum (L/min)": 1.7,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "2 / 3",
+          "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "350 / 300",
+          "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "450 / 370",
+          "Protection": "IP 64",
+          "Ambient temperature (°C)": "-15 to +60",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "2 (maximum 6)",
+          "Coil resistance (Ω at 20 °C)": 4.5,
+          "Mass (kg)": 5
+        }
+      },
+      {
+        "model_code": "LSVG-03-60",
+        "slug": "lsvg-03-60",
+        "needs_review": false,
+        "review_note": null,
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 60,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa)": 35,
+          "Drain port permissible back pressure (MPa)": 0.05,
+          "Internal leakage maximum (L/min)": 1.7,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), 48 V / 24 V amplifier": "3 / 4",
+          "Frequency response gain -3 dB (Hz), 48 V / 24 V amplifier": "330 / 240",
+          "Frequency response phase -90° (Hz), 48 V / 24 V amplifier": "410 / 330",
+          "Protection": "IP 64",
+          "Ambient temperature (°C)": "-15 to +60",
+          "Spool stroke to stops (mm)": "±0.75",
+          "Linear motor current (A)": "2 (maximum 6)",
+          "Coil resistance (Ω at 20 °C)": 4.5,
+          "Mass (kg)": 5
+        }
+      }
     ]
   },
   {
@@ -37,22 +177,917 @@
     "image": "images/yuk-linear-servo-valves.jpg",
     "catalog_pdf": null,
     "applications": [
-      { "slug": "automotive-transportation", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "industrial-robots", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "machine-tools", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "manufacturing-machinery", "relevance": "secondary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "plastic-processing-forming-machinery", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "power-generation", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." },
-      { "slug": "steel-plant-equipment", "relevance": "primary", "note": "Category-level fallback from the brief; confirm against product documentation." }
+      {
+        "slug": "automotive-transportation",
+        "relevance": "secondary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "industrial-robots",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "machine-tools",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "manufacturing-machinery",
+        "relevance": "secondary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "plastic-processing-forming-machinery",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "power-generation",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      },
+      {
+        "slug": "steel-plant-equipment",
+        "relevance": "primary",
+        "note": "Category-level fallback from the brief; confirm against product documentation."
+      }
     ],
     "needs_review": true,
     "reason": "Application mapping is provisional. The supplied workbook lists LSVG-03EH for 40 and 60 flow models and includes option wildcards not present in the provided model list.",
     "variants": [
-      { "model_code": "LSVG-01EH-4", "slug": "lsvg-01eh-4", "needs_review": true, "review_note": "Workbook model pattern is LSVG-01EH-4-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.", "specs": { "Rated flow at ΔP 7 MPa (L/min)": 4, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa), standard / wet type": "21 / 7", "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port", "Internal leakage maximum (L/min)": 0.4, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5", "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230", "Frequency response phase -90° (Hz), standard / wet type": "300 / 270", "Vibration proof (m/s²)": 100, "Protection": "IP 65", "Ambient temperature (°C)": "0 to +50", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "1.5 (maximum 3.2)", "Coil resistance (Ω at 20 °C)": 7, "Approximate mass (kg)": 4.3, "Electric connection": "6 + PE / 11 + PE connector" } },
-      { "model_code": "LSVG-01EH-10", "slug": "lsvg-01eh-10", "needs_review": true, "review_note": "Workbook model pattern is LSVG-01EH-10-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.", "specs": { "Rated flow at ΔP 7 MPa (L/min)": 10, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa), standard / wet type": "21 / 7", "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port", "Internal leakage maximum (L/min)": 0.8, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5", "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230", "Frequency response phase -90° (Hz), standard / wet type": "300 / 270", "Vibration proof (m/s²)": 100, "Protection": "IP 65", "Ambient temperature (°C)": "0 to +50", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "1.5 (maximum 3.2)", "Coil resistance (Ω at 20 °C)": 7, "Approximate mass (kg)": 4.3, "Electric connection": "6 + PE / 11 + PE connector" } },
-      { "model_code": "LSVG-01EH-20", "slug": "lsvg-01eh-20", "needs_review": true, "review_note": "Workbook model pattern is LSVG-01EH-20-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.", "specs": { "Rated flow at ΔP 7 MPa (L/min)": 20, "Maximum operating pressure (MPa)": 35, "Return port proof pressure (MPa), standard / wet type": "21 / 7", "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port", "Internal leakage maximum (L/min)": 1.2, "Hysteresis maximum (%)": 0.1, "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5", "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230", "Frequency response phase -90° (Hz), standard / wet type": "300 / 270", "Vibration proof (m/s²)": 100, "Protection": "IP 65", "Ambient temperature (°C)": "0 to +50", "Spool stroke to stops (mm)": "±0.5", "Linear motor current (A)": "1.5 (maximum 3.2)", "Coil resistance (Ω at 20 °C)": 7, "Approximate mass (kg)": 4.3, "Electric connection": "6 + PE / 11 + PE connector" } },
-      { "model_code": "LSVG-01EH-40", "slug": "lsvg-01eh-40", "needs_review": true, "review_note": "User-provided prefix is 01EH, while the workbook lists 03EH for 40 flow. No workbook specs assigned until the model prefix is confirmed.", "specs": null },
-      { "model_code": "LSVG-01EH-60", "slug": "lsvg-01eh-60", "needs_review": true, "review_note": "User-provided prefix is 01EH, while the workbook lists 03EH for 60 flow. No workbook specs assigned until the model prefix is confirmed.", "specs": null }
+      {
+        "model_code": "LSVG-01EH-4",
+        "slug": "lsvg-01eh-4",
+        "needs_review": true,
+        "review_note": "Workbook model pattern is LSVG-01EH-4-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.",
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 4,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa), standard / wet type": "21 / 7",
+          "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port",
+          "Internal leakage maximum (L/min)": 0.4,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5",
+          "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230",
+          "Frequency response phase -90° (Hz), standard / wet type": "300 / 270",
+          "Vibration proof (m/s²)": 100,
+          "Protection": "IP 65",
+          "Ambient temperature (°C)": "0 to +50",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "1.5 (maximum 3.2)",
+          "Coil resistance (Ω at 20 °C)": 7,
+          "Approximate mass (kg)": 4.3,
+          "Electric connection": "6 + PE / 11 + PE connector"
+        }
+      },
+      {
+        "model_code": "LSVG-01EH-10",
+        "slug": "lsvg-01eh-10",
+        "needs_review": true,
+        "review_note": "Workbook model pattern is LSVG-01EH-10-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.",
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 10,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa), standard / wet type": "21 / 7",
+          "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port",
+          "Internal leakage maximum (L/min)": 0.8,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5",
+          "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230",
+          "Frequency response phase -90° (Hz), standard / wet type": "300 / 270",
+          "Vibration proof (m/s²)": 100,
+          "Protection": "IP 65",
+          "Ambient temperature (°C)": "0 to +50",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "1.5 (maximum 3.2)",
+          "Coil resistance (Ω at 20 °C)": 7,
+          "Approximate mass (kg)": 4.3,
+          "Electric connection": "6 + PE / 11 + PE connector"
+        }
+      },
+      {
+        "model_code": "LSVG-01EH-20",
+        "slug": "lsvg-01eh-20",
+        "needs_review": true,
+        "review_note": "Workbook model pattern is LSVG-01EH-20-*; confirm the omitted option suffix. Specs retain the workbook's wet-type parenthetical values.",
+        "specs": {
+          "Rated flow at ΔP 7 MPa (L/min)": 20,
+          "Maximum operating pressure (MPa)": 35,
+          "Return port proof pressure (MPa), standard / wet type": "21 / 7",
+          "Drain port permissible back pressure (MPa)": "0.05; wet type has no Y port",
+          "Internal leakage maximum (L/min)": 1.2,
+          "Hysteresis maximum (%)": 0.1,
+          "Step response, typical 0–100% (ms), standard / wet type": "3 / 3.5",
+          "Frequency response gain -3 dB (Hz), standard / wet type": "240 / 230",
+          "Frequency response phase -90° (Hz), standard / wet type": "300 / 270",
+          "Vibration proof (m/s²)": 100,
+          "Protection": "IP 65",
+          "Ambient temperature (°C)": "0 to +50",
+          "Spool stroke to stops (mm)": "±0.5",
+          "Linear motor current (A)": "1.5 (maximum 3.2)",
+          "Coil resistance (Ω at 20 °C)": 7,
+          "Approximate mass (kg)": 4.3,
+          "Electric connection": "6 + PE / 11 + PE connector"
+        }
+      },
+      {
+        "model_code": "LSVG-01EH-40",
+        "slug": "lsvg-01eh-40",
+        "needs_review": true,
+        "review_note": "User-provided prefix is 01EH, while the workbook lists 03EH for 40 flow. No workbook specs assigned until the model prefix is confirmed.",
+        "specs": null
+      },
+      {
+        "model_code": "LSVG-01EH-60",
+        "slug": "lsvg-01eh-60",
+        "needs_review": true,
+        "review_note": "User-provided prefix is 01EH, while the workbook lists 03EH for 60 flow. No workbook specs assigned until the model prefix is confirmed.",
+        "specs": null
+      }
+    ]
+  },
+  {
+    "slug": "asr-series",
+    "name": "ASR Series",
+    "series_code": "ASR",
+    "category_slug": "pumps",
+    "short_description": "AC servo motor-driven pump with flow and pressure control. ASR models cover maximum flow rates from 39.5 to 200 L/min.",
+    "description": "The Yuken ASR Series combines flow control and pressure control with an AC servo motor. Models vary by power capacity, maximum flow, maximum operating pressure, motor output, cooling system, mass, and applicable controller.",
+    "image": "images/product/yuk-asr-type.webp",
+    "catalog_pdf": null,
+    "applications": [],
+    "needs_review": false,
+    "variants": [
+      {
+        "model_code": "ASR1-C",
+        "specs": {
+          "Power capacity code": "C",
+          "Max flow (L/min)": 39.5,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "31.6 L/min / 5 V",
+          "Maximum permissible flow signal": "39.5 L/min / 6.25 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 4.5,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed self-cooling",
+          "Cooling fan power": "—",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 54,
+          "Mass dual displacement (kg)": 55,
+          "Applicable controller": "AMSR-*C-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR2-C",
+        "specs": {
+          "Power capacity code": "C",
+          "Max flow (L/min)": 55.5,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "44.4 L/min / 5 V",
+          "Maximum permissible flow signal": "55.5 L/min / 6.25 V",
+          "Max operating pressure (MPa)": 16,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "16 MPa / 4.57 V",
+          "Maximum permissible pressure signal": "16 MPa / 4.57 V",
+          "Rated output (kW)": 4.5,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed self-cooling",
+          "Cooling fan power": "—",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 54,
+          "Mass dual displacement (kg)": 55,
+          "Applicable controller": "AMSR-*C-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR3-E",
+        "specs": {
+          "Power capacity code": "E",
+          "Max flow (L/min)": 92.3,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "73.8 L/min / 5 V",
+          "Maximum permissible flow signal": "92.3 L/min / 6.25 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 6,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed self-cooling",
+          "Cooling fan power": "—",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 80,
+          "Mass dual displacement (kg)": 82,
+          "Applicable controller": "AMSR-2DE-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR3-G",
+        "specs": {
+          "Power capacity code": "G",
+          "Max flow (L/min)": 92.3,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "73.8 L/min / 5 V",
+          "Maximum permissible flow signal": "92.3 L/min / 6.25 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 8,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed self-cooling",
+          "Cooling fan power": "—",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 87,
+          "Mass dual displacement (kg)": 89,
+          "Applicable controller": "AMSR-*FGI-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR5-G",
+        "specs": {
+          "Power capacity code": "G",
+          "Max flow (L/min)": 129,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "112.4 L/min / 5 V",
+          "Maximum permissible flow signal": "129 L/min / 5.75 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 8,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed self-cooling",
+          "Cooling fan power": "—",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 94,
+          "Mass dual displacement (kg)": 96,
+          "Applicable controller": "AMSR-*FGI-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR5-J",
+        "specs": {
+          "Power capacity code": "J",
+          "Max flow (L/min)": 129,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "112.4 L/min / 5 V",
+          "Maximum permissible flow signal": "129 L/min / 5.75 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 11,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed fan-cooling",
+          "Cooling fan power": "62 W (50 Hz) / 76 W (60 Hz)",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 175.5,
+          "Mass dual displacement (kg)": 177.5,
+          "Applicable controller": "AMSR-*HJL-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR10-J",
+        "specs": {
+          "Power capacity code": "J",
+          "Max flow (L/min)": 200,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "200 L/min / 5 V",
+          "Maximum permissible flow signal": "200 L/min / 5 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 11,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed fan-cooling",
+          "Cooling fan power": "62 W (50 Hz) / 76 W (60 Hz)",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 213,
+          "Mass dual displacement (kg)": 214,
+          "Applicable controller": "AMSR-*HJL-*00-10"
+        }
+      },
+      {
+        "model_code": "ASR10-M",
+        "specs": {
+          "Power capacity code": "M",
+          "Max flow (L/min)": 200,
+          "Minimum adjustable flow": "1%",
+          "Flow hysteresis": "1% or less",
+          "Flow repeatability": "1% or less",
+          "Flow input signal voltage": "200 L/min / 5 V",
+          "Maximum permissible flow signal": "200 L/min / 5 V",
+          "Max operating pressure (MPa)": 21,
+          "Minimum adjustable pressure (MPa)": 0.1,
+          "Pressure hysteresis": "1% or less",
+          "Pressure repeatability": "1% or less",
+          "Pressure input signal voltage": "17.5 MPa / 5 V",
+          "Maximum permissible pressure signal": "21 MPa / 6 V",
+          "Rated output (kW)": 15,
+          "Insulation class": "Class F",
+          "Cooling system": "Totally-enclosed fan-cooling",
+          "Cooling fan power": "62 W (50 Hz) / 76 W (60 Hz)",
+          "Ambient temperature": "0 to +40 °C (no freezing)",
+          "Ambient humidity": "80 %RH or less (no condensation)",
+          "Mass single displacement (kg)": 233,
+          "Mass dual displacement (kg)": 234,
+          "Applicable controller": "AMSR-*KMO-*00-10"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "a3h-series",
+    "name": "A3H Series",
+    "series_code": "A3H",
+    "category_slug": "pumps",
+    "short_description": "Yuken A3H pump series with seven displacement sizes from 16.3 to 180.7 cm³/rev.",
+    "description": "The A3H series is listed with seven model sizes. Specifications below are for petroleum-based oils; pressure and speed limits depend on operating conditions.",
+    "image": "images/product/yuk-a3h.webp",
+    "catalog_pdf": null,
+    "applications": [],
+    "needs_review": false,
+    "variants": [
+      {
+        "model_code": "A3H 16-＊R01KK-10",
+        "slug": "a3h-16-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 16.3,
+          "Minimum adjusted flow (cm³/rev)": 8,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 3600,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 14.5,
+          "Approx. mass, foot mounting (kg)": 23.4
+        }
+      },
+      {
+        "model_code": "A3H 37-＊R01KK-10",
+        "slug": "a3h-37-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 37.1,
+          "Minimum adjusted flow (cm³/rev)": 16,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 2700,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 19.5,
+          "Approx. mass, foot mounting (kg)": 27
+        }
+      },
+      {
+        "model_code": "A3H 56-＊R01KK-10",
+        "slug": "a3h-56-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 56.3,
+          "Minimum adjusted flow (cm³/rev)": 35,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 2500,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 25.7,
+          "Approx. mass, foot mounting (kg)": 33.2
+        }
+      },
+      {
+        "model_code": "A3H 71-＊R01KK-10",
+        "slug": "a3h-71-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 70.7,
+          "Minimum adjusted flow (cm³/rev)": 45,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 2300,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 35,
+          "Approx. mass, foot mounting (kg)": 42.5
+        }
+      },
+      {
+        "model_code": "A3H100-＊R01KK-10",
+        "slug": "a3h-100-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 100.5,
+          "Minimum adjusted flow (cm³/rev)": 63,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 2100,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 44.9,
+          "Approx. mass, foot mounting (kg)": 72.9
+        }
+      },
+      {
+        "model_code": "A3H145-＊R01KK-10",
+        "slug": "a3h-145-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 145.2,
+          "Minimum adjusted flow (cm³/rev)": 95,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 1800,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 60,
+          "Approx. mass, foot mounting (kg)": 88
+        }
+      },
+      {
+        "model_code": "A3H180-＊R01KK-10",
+        "slug": "a3h-180-r01kk-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 180.7,
+          "Minimum adjusted flow (cm³/rev)": 130,
+          "Rated operating pressure (MPa)": 28,
+          "Intermittent operating pressure (MPa)": 35,
+          "Maximum shaft speed (r/min)": 1800,
+          "Minimum shaft speed (r/min)": 600,
+          "Approx. mass, flange mounting (kg)": 70.4,
+          "Approx. mass, foot mounting (kg)": 98.4
+        }
+      }
+    ]
+  },
+  {
+    "slug": "cjt35-series",
+    "name": "CJT 3.5 MPa Series",
+    "series_code": "CJT35",
+    "category_slug": "hydraulic-cylinders",
+    "short_description": "CJT 3.5 MPa hydraulic cylinder series with eight bore sizes from 32 to 160 mm.",
+    "description": "The Yuken CJT 3.5 MPa Series is listed with eight cylinder bore sizes and nine mounting types. The specification table includes pressure ratings, operating speed limits, and maximum stroke by bore.",
+    "image": "images/product/yuk-cjt-35.webp",
+    "catalog_pdf": null,
+    "applications": [],
+    "needs_review": false,
+    "variants": [
+      {
+        "model_code": "CJT35−＊＊＊＊＊−＊＊＊−30",
+        "slug": "cjt35-configuration",
+        "specs": {
+          "Cylinder bore sizes (mm)": [
+            32,
+            40,
+            50,
+            63,
+            80,
+            100,
+            125,
+            160
+          ],
+          "Mounting types": [
+            "SD",
+            "LA",
+            "LB",
+            "FA",
+            "FB",
+            "CA",
+            "CB",
+            "TA",
+            "TC"
+          ],
+          "Nominal pressure (MPa)": 3.5,
+          "Maximum allowable pressure (MPa)": 4.5,
+          "Proof test pressure (MPa)": 5,
+          "Minimum working pressure (MPa)": 0.2,
+          "Maximum operating speed (mm/s)": 300,
+          "Minimum operating speed (mm/s)": 8,
+          "Maximum stroke by bore (mm)": {
+            "32": 1000,
+            "40": 1000,
+            "80": 1600,
+            "100": 1600,
+            "50 and 63": 1200,
+            "125 and 160": 1800
+          },
+          "Stroke tolerance": "Refer to the separate Tolerance of Stroke table.",
+          "Thread tolerance": "JIS B 0211−6g (JIS grade 2 or equivalent)",
+          "Ambient temperature range": "−10 to +80 °C",
+          "Applicable standard": "Compliant with former JIS B8354"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "pv2r-series",
+    "name": "PV2R Series",
+    "series_code": "PV2R",
+    "category_slug": "pumps",
+    "short_description": "Yuken PV2R single-vane pump series with 23 models and geometric displacement from 5.8 to 237 cm³/rev.",
+    "description": "The PV2R Series is listed in four frame groups. This page compares model displacement, maximum operating pressure, pressure ratings by fluid type, shaft-speed ranges, and catalog page references for output flow and input power.",
+    "image": "images/product/yuk-pv2r.webp",
+    "catalog_pdf": null,
+    "applications": [],
+    "needs_review": false,
+    "variants": [
+      {
+        "model_code": "PV2R1−6",
+        "slug": "pv2r1-6",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 5.8,
+          "Maximum operating pressure (MPa)": "21★5",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−8",
+        "slug": "pv2r1-8",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 8,
+          "Maximum operating pressure (MPa)": "21★5",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−10",
+        "slug": "pv2r1-10",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 9.4,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−12",
+        "slug": "pv2r1-12",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 12.2,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−14",
+        "slug": "pv2r1-14",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 13.7,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−17",
+        "slug": "pv2r1-17",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 16.6,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−19",
+        "slug": "pv2r1-19",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 18.6,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−23",
+        "slug": "pv2r1-23",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 22.7,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−25",
+        "slug": "pv2r1-25",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 25.3,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R1−31",
+        "slug": "pv2r1-31",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 31,
+          "Maximum operating pressure (MPa)": "16",
+          "Output flow and input power reference": "B-11 to B-13",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "750★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 16,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 16
+        }
+      },
+      {
+        "model_code": "PV2R2−41",
+        "slug": "pv2r2-41",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 41.3,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-13 to B-14",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R2−47",
+        "slug": "pv2r2-47",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 47.2,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-13 to B-14",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R2−53",
+        "slug": "pv2r2-53",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 52.5,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-13 to B-14",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R2−59",
+        "slug": "pv2r2-59",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 58.2,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-13 to B-14",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R2−65",
+        "slug": "pv2r2-65",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 64.7,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-13 to B-14",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600★4",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R3−76",
+        "slug": "pv2r3-76",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 76.4,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-14 to B-15",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R3−94",
+        "slug": "pv2r3-94",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 93.6,
+          "Maximum operating pressure (MPa)": "21",
+          "Output flow and input power reference": "B-14 to B-15",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R3−116",
+        "slug": "pv2r3-116",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 115.6,
+          "Maximum operating pressure (MPa)": "16",
+          "Output flow and input power reference": "B-14 to B-15",
+          "Maximum shaft speed (r/min)": "1800★2 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R4−136",
+        "slug": "pv2r4-136",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 136,
+          "Maximum operating pressure (MPa)": "17.5",
+          "Output flow and input power reference": "B-15 to B-16",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R4−153",
+        "slug": "pv2r4-153",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 153,
+          "Maximum operating pressure (MPa)": "17.5",
+          "Output flow and input power reference": "B-15 to B-16",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R4−184",
+        "slug": "pv2r4-184",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 184,
+          "Maximum operating pressure (MPa)": "17.5",
+          "Output flow and input power reference": "B-15 to B-16",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R4−200",
+        "slug": "pv2r4-200",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 200,
+          "Maximum operating pressure (MPa)": "17.5",
+          "Output flow and input power reference": "B-15 to B-16",
+          "Maximum shaft speed (r/min)": "1800 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      },
+      {
+        "model_code": "PV2R4−237",
+        "slug": "pv2r4-237",
+        "specs": {
+          "Geometric displacement (cm³/rev)": 237,
+          "Maximum operating pressure (MPa)": "17.5",
+          "Output flow and input power reference": "B-15 to B-16",
+          "Maximum shaft speed (r/min)": "1800★2 (1200)",
+          "Minimum shaft speed (r/min)": "600",
+          "Pressure, petroleum base oils - anti-wear (MPa)": 14,
+          "Pressure, petroleum base oils - R&O (MPa)": 16,
+          "Pressure, water-glycol fluids (MPa)": 7,
+          "Pressure, water-in-oil emulsions (MPa)": 7,
+          "Pressure, phosphate esters (MPa)": 14
+        }
+      }
     ]
   }
 ]

@@ -30,14 +30,14 @@ class ProductController extends Controller
 
     public function show(string $slug)
     {
-        $product = Cache::remember('catalog:product:v1:'.$slug, now()->addMinutes(5), fn () =>
+        $product = Cache::remember('catalog:product:v2:'.$slug, now()->addMinutes(5), fn () =>
             Product::active()->with([
                 'category',
                 'applications' => fn ($query) => $query->active()->orderBy('product_application.sort_order'),
-                'variants' => fn ($query) => $query->active(),
+                'variants' => fn ($query) => $query->active()->orderByRaw("CAST(SUBSTRING_INDEX(model_code, '-', -1) AS UNSIGNED)")->orderBy('model_code'),
             ])->where('slug', $slug)->firstOrFail()
         );
 
-        return view('products.show', compact('product'));
+        return view($slug === 'asr-series' ? 'products.asr-show' : ($slug === 'a3h-series' ? 'products.a3h-show' : ($slug === 'cjt35-series' ? 'products.cjt35-show' : ($slug === 'pv2r-series' ? 'products.pv2r-show' : 'products.show'))), compact('product'));
     }
 }

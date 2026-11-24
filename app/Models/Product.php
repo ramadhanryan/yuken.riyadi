@@ -33,7 +33,7 @@ class Product extends Model
 
     public function variants(): HasMany
     {
-        return $this->hasMany(ProductVariant::class)->orderBy('model_code');
+        return $this->hasMany(ProductVariant::class)->orderByRaw("CAST(SUBSTRING_INDEX(model_code, '-', -1) AS UNSIGNED)")->orderBy('model_code');
     }
 
     public function scopeActive(Builder $query): Builder

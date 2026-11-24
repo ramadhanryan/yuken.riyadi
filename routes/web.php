@@ -16,6 +16,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+
 Route::get('/product', [ProductController::class, 'index'])->name('products.index');
 Route::get('/product/{slug}', [ProductController::class, 'show'])->name('products.show');
 Route::get('/applications', [ApplicationController::class, 'index'])->name('applications.index');

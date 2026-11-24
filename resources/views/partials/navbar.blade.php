@@ -1,6 +1,7 @@
-@php($homePrefix = request()->is('contact') ? url('/') : '')
-@php($productPage = request()->is('product'))
-<nav class="navbar{{ request()->is('contact') || request()->is('applications*') || $productPage ? ' visible always-visible' : '' }}" id="navbar" aria-label="Main navigation">
+@php($homePrefix = request()->is('contact') || request()->is('privacy') ? url('/') : '')
+@php($homePage = request()->is('/') || request()->is('home'))
+@php($productPage = request()->is('product*'))
+<nav class="navbar{{ request()->is('contact') || request()->is('privacy') || request()->is('applications*') || $productPage ? ' visible always-visible' : '' }}" id="navbar" aria-label="Main navigation">
     <div class="nav-inner">
         <div class="brand">
             <div class="brand-logos" aria-label="Company logos">
@@ -10,7 +11,7 @@
         </div>
         <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
         <div class="nav-links" id="navLinks">
-            <a href="{{ $homePrefix }}/#home">Home</a>
+            <a class="{{ $homePage ? 'active' : '' }}" href="{{ $homePrefix }}/#home" @if ($homePage) aria-current="page" @endif>Home</a>
             <div class="nav-item{{ $productPage ? ' active' : '' }}" id="productsNavItem">
                 <a class="nav-trigger{{ $productPage ? ' active' : '' }}" id="productsMenuButton" href="{{ url('/product') }}" @if ($productPage) aria-current="page" @endif>Products <span class="nav-chevron" aria-hidden="true"></span></a>
                 <div class="mega-menu" id="productsMegaMenu" aria-labelledby="productsMenuButton">
@@ -35,5 +36,6 @@
             </div>
             <a class="contact-link{{ request()->is('contact') ? ' active' : '' }}" href="{{ url('/contact') }}" @if (request()->is('contact')) aria-current="page" @endif>Contact <span aria-hidden="true">↗</span></a>
         </div>
+
     </div>
 </nav>
